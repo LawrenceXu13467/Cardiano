@@ -24,7 +24,9 @@ $ sudo /etc/init.d/bluetooth stop
 
 (sudo /etc/init.d/bluetooth [start|stop|restart|force-reload|status)
 
+open a seperate window
 $ sudo /usr/sbin/bluetoothd --nodetach --debug -p time
+
 ```
 
 ```
@@ -37,7 +39,7 @@ keyboard - contains a btkserver client application that sends local keystrokes t
 
 ```
 5. DBUS Configuration
-$ cd BlogCode/btkeyboard/dbus
+$ cd ~/BlogCode/btkeyboard/dbus
 $ sudo cp org.yaptb.btkbservice.conf /etc/dbus-1/system.d
 ```
 
@@ -56,7 +58,7 @@ $ vim btk_server.py
 ```
 ```
 8. Run the Python Script (Make sure the other window is running)
-$ sudo python btkserver.py
+$ sudo python btk_server.py
 ```
 ```
 9. Pair
