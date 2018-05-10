@@ -1,6 +1,10 @@
 # Cardiano
 A modular, economical, full scale Bluetooth Piano made out of Cardboard Boxes. 
 
+
+
+## First, Set up a Bluetooth Keyboard Emulator
+
 ```
 1. Update & Upgrade the system to latest version first
 
@@ -43,3 +47,39 @@ $ sudo hciconfig hcio
 ($ sudo hciconfig hcio up)
 (only if the status is down, check "up and running" after executing above command)
 ```
+```
+7. Update BD address
+$ sudo hciconfig hcio
+$ cd ~/BlogCode/btkeyboard/server
+$ vim btk_server.py
+(line 76, change the MY_ADDRESS to BD ADDRESS)
+```
+```
+8. Run the Python Script (Make sure the other window is running)
+$ sudo python btkserver.py
+```
+```
+9. Pair
+$ sudo /usr/bin/bluetoothctl
+[Bluetooth]# agent on
+[Bluetooth]# default-agent
+[Bluetooth]# scan on
+[Bluetooth]#  discoverable on
+```
+```
+10. Open the 4th Window
+$ cd ~/BlogCode/btkeyboard/keyboard
+$ sudo python kb_client.py
+```
+
+```
+11. Possible ways to deal with timeout
+$ sudo hciconfig hcio lm master
+```
+Reference:            
+                     
+http://yetanotherpointlesstechblog.blogspot.com/2016/04/emulating-bluetooth-keyboard-with.html?m=1&from=groupmessage&isappinstalled=0            
+                     
+http://yetanotherpointlesstechblog.blogspot.com.au/2017/08/updated-bluetooth-keyboard-client-code.html          
+               
+https://www.gadgetdaily.xyz/emulate-a-bluetooth-keyboard-with-the-raspberry-pi/
