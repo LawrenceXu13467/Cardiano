@@ -64,7 +64,7 @@ $ sudo /usr/bin/bluetoothctl
 [Bluetooth]# agent on
 [Bluetooth]# default-agent
 [Bluetooth]# scan on
-[Bluetooth]#  discoverable on
+[Bluetooth]# discoverable on
 ```
 ```
 10. Open the 4th Window
