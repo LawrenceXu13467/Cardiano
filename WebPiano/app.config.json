@@ -1,0 +1,9 @@
+{
+	"title": "CSM117 Project: Cardiano",
+	"short_name": "Cardino",
+	"description": "A modular, economical, full scale Bluetooth Piano made out of Cardboard Boxes.",
+	"url": "https://my.ucla.edu",
+	"logo": "images/piano.png", 
+	"theme_color": "#333333",
+	"ga": "UA-45159592-1"
+}
