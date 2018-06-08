@@ -85,3 +85,5 @@ http://yetanotherpointlesstechblog.blogspot.com/2016/04/emulating-bluetooth-keyb
 http://yetanotherpointlesstechblog.blogspot.com.au/2017/08/updated-bluetooth-keyboard-client-code.html          
                
 https://www.gadgetdaily.xyz/emulate-a-bluetooth-keyboard-with-the-raspberry-pi/
+
+Credit to Felipe Fialho for the web piano
