@@ -1,7 +1,9 @@
 # Cardiano
 A modular, economical, full scale Bluetooth Piano made out of Cardboard Boxes. 
 
+## DEMO
 
+[![Cardiano](https://img.youtube.com/vi/PWZmeqmuyn4/0.jpg)](https://www.youtube.com/watch?v=PWZmeqmuyn4 "Spring18 - UCLA CSM117 - Virtuoso")
 
 ## First, Set up a Bluetooth Keyboard Emulator
 
